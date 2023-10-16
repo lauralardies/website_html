@@ -1,16 +1,45 @@
 <html>
     <head>
-        <title>Home</title>
+        <title>Inicio</title>
     </head>
     <body>
-        <h1>Bienvenid@s</h1>
-        <p>En esta página vamos a ver qué son las Ecuaciones Diferenciales Ordinarias (EDO) y algunos de sus tipos.</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Ordinary_differential_equation.svg/1200px-Ordinary_differential_equation.svg.png" alt="EDO">
-        <p>Puede acceder directamente a la teoría</p>
-        <!-- 3 cuadraditos con botones para cada tipo de EDO -->
-        <p>También puede contribuir a nuestra página web</p>
-        <button onclick="window.location.href='formulario.html'">¡Colabora!</button>
-        <!-- Botón al formulario -->
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="edo.html">EDO</a></li>
+                    <li><a href="formulario.html">Colabora</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1>Bienvenid@s</h1>
+            <p>En esta página vamos a ver qué son las Ecuaciones Diferenciales Ordinarias (EDO) y algunos de sus tipos.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Ordinary_differential_equation.svg/1200px-Ordinary_differential_equation.svg.png" alt="EDO"> 
+        </section>
+        <section>
+            <p>Puede acceder directamente a la teoría</p>
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Ordinary_differential_equation.svg/1200px-Ordinary_differential_equation.svg.png" alt="EDO">
+                <p>EDO de primer orden de variables separables</p>
+                <button onclick="window.location.href='edo.html'">¡Vamos!</button>
+            </div>
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Ordinary_differential_equation.svg/1200px-Ordinary_differential_equation.svg.png" alt="EDO">
+                <p>EDO de primer orden lineales</p>
+                <button onclick="window.location.href='edo.html'">¡Vamos!</button>
+            </div>
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Ordinary_differential_equation.svg/1200px-Ordinary_differential_equation.svg.png" alt="EDO">
+                <p>EDO de primer orden homogéneas</p>
+                <button onclick="window.location.href='edo.html'">¡Vamos!</button>
+            </div>
+            <!-- 3 cuadraditos con botones para cada tipo de EDO -->
+        </section>
+        <section>
+            <p>También puede contribuir a nuestra página web</p>
+            <button onclick="window.location.href='formulario.html'">¡Colabora!</button>
+        </section>
         <footer>
             <p>© 2023 Made with love in Ironhack!</p>
         </footer>
