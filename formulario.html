@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <header><h1>Formulario</h1></header>
+        <p>A través de este formulario puede contribuir información para que agreguemos a nuestra página web. Muchas gracias por su colaboración.</p>
+        <form action="thankyou.html" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="hola@hola.es"><br>
+            <label type="edad" for="edad">Edad (mínimo 18):</label>
+            <input type="number" name="edad" id="edad" min="18" max="99">
+            <label for="ciudad">Ciudad:</label>
+            <select name="ciudad" id="ciudad">
+                <option value="mad">Madrid</option>
+                <option value="bcn">Barcelona</option>
+                <option value="val">Valencia</option>
+                <option value="pam">Pamplona</option>
+                <option value="ovi">Oviedo</option>
+                <option value="cdz">Cádiz</option>
+                <option value="oth">Otro</option>
+            </select><br>
+            <label for="comentario">Comentario:</label>
+            <textarea name="comentario" id="comentario" rows="4" cols="33"></textarea>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+        <footer>
+            <p>© 2023 Made with love in Ironhack!</p>
+        </footer>
+    </body>
+</html>
