@@ -78,6 +78,14 @@ nav li {
     justify-content: space-around;
 }
 
+.al-lado {
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 @media (min-width: 1400px) {
     #teoria {
         flex-direction: row;
